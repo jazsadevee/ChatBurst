@@ -51,13 +51,14 @@ input::placeholder {
   font-style: italic;
 }
 
-label{
+label {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: #006aff;
 }
-
-
 
 button {
   background-color: #006aff;
@@ -66,7 +67,7 @@ button {
   font-weight: bold;
   cursor: pointer;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 p {
