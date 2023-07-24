@@ -13,7 +13,7 @@ const Register = () => {
           <input type="password" placeholder='password' />
           <input style={{ display: 'none' }} type="file" id="file" />
           <label htmlFor="file">
-            <img src={avatar} alt="" height={60} weight={60} />
+            <img src={avatar} alt="" height={35} weight={35} />
             <span>Add an avatar</span>
           </label>
           <button>Sign Up</button>
