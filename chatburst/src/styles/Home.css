@@ -1,0 +1,80 @@
+.home {
+  /* background-color: white; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid rgba(255, 255, 255, 0.508);
+  border-radius: 10px;
+  width: 75%;
+  height: 80%;
+  display: flex;
+  box-shadow: 5px 8px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 30px rgba(0, 0, 0, 0.19);
+
+}
+
+.sidebar {
+  flex: 1;
+  /* border-right: 1px solid white; */
+  border-right: 1px solid rgba(255, 255, 255, 0.508);
+  background-color: rgb(98, 22, 240);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.chat {
+  flex: 2;
+  border-radius: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(63, 9, 163);
+  height: 50px;
+  padding: 10px;
+  justify-content: space-between;
+  color: white;
+}
+
+.logoName {
+  font-weight: bold;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+img {
+  background-color: black;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  margin-top: 10px;
+  object-fit: cover;
+}
+
+button.logout {
+  background-color: transparent;
+  border: 1px solid black;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}

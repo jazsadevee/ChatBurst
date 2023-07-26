@@ -1,5 +1,6 @@
 import React from 'react'
 import avatar from '../img/avatar.ico'
+import '../styles/Register.css'
 
 const Register = () => {
   return (
